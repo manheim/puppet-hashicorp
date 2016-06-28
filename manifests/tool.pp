@@ -1,4 +1,4 @@
-define man_hashicorp::tool(
+define hashicorp::tool(
   $tool    = $title,
   $version = undef,
   $ext     = 'zip',

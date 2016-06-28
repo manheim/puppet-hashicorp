@@ -2,9 +2,9 @@
 
 1. [Overview](#overview)
 2. [Module Description - What the module does and why it is useful](#module-description)
-3. [Setup - The basics of getting started with man_hashicorp](#setup)
-  * [What man_hashicorp affects](#what-man_hashicorp-affects)
-  * [Beginning with man_hashicorp](#beginning-with-man_hashicorp)
+3. [Setup - The basics of getting started with hashicorp](#setup)
+  * [What hashicorp affects](#what-hashicorp-affects)
+  * [Beginning with hashicorp](#beginning-with-hashicorp)
 4. [Limitations - OS compatibility, etc.](#limitations)
 5. [Development - Guide for contributing to the module](#development)
 
@@ -18,11 +18,11 @@
 
 ## Setup
 
-### What man_hashicorp Affects
+### What hashicorp Affects
 
 ...
 
-### Beginning with man_hashicorp
+### Beginning with hashicorp
 
 ...
 

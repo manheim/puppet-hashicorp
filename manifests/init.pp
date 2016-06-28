@@ -1,1 +1,1 @@
-class man_hashicorp {}
+class hashicorp {}
