@@ -42,6 +42,7 @@ define hashicorp::tool(
   $supported_tool_names = [
     '^consul-template$',
     '^terraform$',
+    '^packer$',
   ]
 
   validate_re("${tool}", $supported_tool_names, "The provided tool (${tool}) is not currently supported.")
