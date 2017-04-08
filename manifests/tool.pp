@@ -42,6 +42,7 @@ define hashicorp::tool(
   $supported_tool_names = [
     '^consul$',
     '^consul-template$',
+    '^envconsul$',
     '^terraform$',
     '^vault$',
     '^packer$',
