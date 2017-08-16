@@ -59,7 +59,7 @@ define hashicorp::tool(
 
   ensure_packages(['unzip', 'wget'], {'ensure' => 'present'})
 
-  archive { "install ${tool}":
+  archive { "install ${tool}-${version}":
     provider     => 'wget',
     path         => "${tmp_dir}/${tool}.${ext}",
     extract_path => $bin_dir,
