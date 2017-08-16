@@ -50,7 +50,7 @@ define hashicorp::tool(
 
   validate_re("${tool}", $supported_tool_names, "The provided tool (${tool}) is not currently supported.")
   validate_re("${version}", '^[0-9]{1,3}.[0-9]{1,3}.[0-9]{1,3}(?:-rc[0-9]{1,2})?', "The provided version (${version}) is not valid.")
-  validate_absolute_path("${bin_dir}") 
+  validate_absolute_path("${bin_dir}")
 
   $release_url = 'https://releases.hashicorp.com'
   $tool_url    = "${release_url}/${tool}"
