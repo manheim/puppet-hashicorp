@@ -61,7 +61,7 @@ define hashicorp::tool(
 
   archive { "install ${tool}-${version}":
     provider     => 'wget',
-    path         => "${tmp_dir}/${tool}.${ext}",
+    path         => "${tmp_dir}/${tool}-${version}.${ext}",
     extract_path => $bin_dir,
     source       => $os_url,
     extract      => true,
